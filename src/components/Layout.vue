@@ -1,7 +1,10 @@
+<script setup>
+import Navbar from './Navbar.vue'
+import Footer from './Footer.vue'
+</script>
+
 <template>
-    <div>
-        <div>Header</div>
-        <div>Body</div>
-        <div>Footer</div>
-    </div>
+    <Navbar />
+    <slot />
+    <Footer />
 </template>
