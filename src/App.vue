@@ -3,5 +3,5 @@ import Layout from './components/Layout.vue';
 </script>
 
 <template>
-  <Layout></Layout>
+  <router-view></router-view>
 </template>
