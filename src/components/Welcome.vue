@@ -1,11 +1,36 @@
 <template>
-    <div class="background-image h-[80vh]">
-
+    <div class="back-view">
+        <div class="top-view grid grid-cols-2 place-content-center h-full max-w-6xl mx-auto " :style="{ grayscale: 0 }">
+            <div class="py-6">
+                <p class="font-main text-main-400 text-8xl title-shadow ">Cinema Conert Club</p>
+            </div>
+            <div></div>
+        </div>
     </div>
 </template>
 
 <style scoped>
-.background-image {
+.back-view {
+    position: relative;
+    height: 80vh;
+}
+
+.back-view::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-image: url('../assets/images/main.jpeg');
+    filter: grayscale(50%);
+}
+
+.top-view {
+    position: relative;
+}
+
+.title-shadow {
+    text-shadow: -2px 2px 4px black;
 }
 </style>
