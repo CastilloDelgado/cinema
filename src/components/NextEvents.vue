@@ -3,7 +3,7 @@ import event1 from '../assets/images/event.png'
 </script>
 
 <template>
-    <div class="bg-white">
+    <div class="bg-main-200">
         <div class="max-w-6xl mx-auto py-8 ">
             <div class="text-center mb-8">
                 <p class="font-bold text-xl font-main">Siguientes Eventos</p>

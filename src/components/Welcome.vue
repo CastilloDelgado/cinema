@@ -23,7 +23,7 @@
     width: 100%;
     height: 100%;
     background-image: url('../assets/images/main.jpeg');
-    filter: grayscale(50%);
+    filter: grayscale(40%);
 }
 
 .top-view {
