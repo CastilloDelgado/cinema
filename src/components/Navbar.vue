@@ -1,13 +1,13 @@
 <script setup>
 import { ref } from 'vue';
 
-const isOpen = ref(true)
+const isOpen = ref(false)
 </script>
 
 <template>
     <div class="w-full bg-black sticky top-0 border-b-4 border-main-400 z-10">
         <div
-            class="max-w-6xl mx-auto min-h-16 grid grid-cols-1 md:px-4 md:grid-cols-2 place-content-center md:place-content-around py-6 md:py-0">
+            class="max-w-6xl mx-auto min-h-16 grid grid-cols-1 md:px-4 md:grid-cols-2 place-content-center md:place-content-around md:py-0">
             <p class="text-center md:text-start font-main text-main-400 cursor-pointer md:mb-0" :class="{
                 'mb-3': isOpen
             }">Cinema Concert Club

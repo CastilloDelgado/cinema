@@ -15,27 +15,27 @@ import video1 from '../assets/videos/orchestra-video-1.mp4'
 
     <!-- Video as Background -->
     <div class="static">
-        <video autoplay muted loop class="absolute h-[80vh] w-full object-cover">
+        <video autoplay muted loop class="absolute h-[100vh] md:h-[80vh] w-full object-cover">
             <source :src="video1" />
         </video>
-        <div class="relative grid grid-cols-2 place-content-center h-[80vh] max-w-6xl mx-auto "
+        <div class="relative grid grid-cols-1 md:grid-cols-2 place-content-center max-w-6xl mx-auto px-4 h-[100vh] md:h-[80vh]"
             :style="{ grayscale: 0 }">
-            <div class="py-6">
-                <p class="font-main text-main-400 text-8xl title-shadow mb-6">Cinema Conert Club</p>
+            <div class="">
+                <p class="font-main text-main-400 text-6xl text-center md:text-start md:text-8xl title-shadow mb-6">
+                    Cinema Conert Club
+                </p>
             </div>
             <div class="grid place-content-center">
                 <div class="px-6 flex flex-col gap-2">
                     <p class="text-white text-center text-2xl font-bold title-shadow">Disfruta de los clásicos del
-                        cine
-                        musicalizados en
-                        vivo de una manera segura, limitada y exclusiva.
+                        cine musicalizados en vivo de una manera segura, limitada y exclusiva.
                     </p>
-                    <p class="text-center text-xl text-main-50 title-shadow">Suscribete para recibir nuestras
+                    <p class="text-center text-xl text-main-50 title-shadow mb-4">Suscribete para recibir nuestras
                         últimas noticias
                     </p>
-                    <div class="flex justify-center w-full gap-1">
+                    <div class="flex flex-col md:flex-row justify-center w-full gap-1">
                         <input type="text" placeholder="Ingresa tu email"
-                            class="text-lg bg-white border-black border-2 rounded-sm px-2 py-1">
+                            class="text-lg bg-white border-black border-2 rounded-sm px-2 py-1 text-center">
                         <button
                             class="text-lg bg-main-500 hover:bg-main-300 px-2 py-1 border-black border-2">Suscribete</button>
                     </div>
