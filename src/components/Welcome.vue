@@ -1,5 +1,9 @@
 <script setup>
+import { onMounted } from 'vue';
 import video1 from '../assets/videos/orchestra-video-1.mp4'
+onMounted(() => {
+    document.getElementById('background-video').playbackRate = 0.9
+})
 </script>
 
 <template>
@@ -15,7 +19,7 @@ import video1 from '../assets/videos/orchestra-video-1.mp4'
 
     <!-- Video as Background -->
     <div class="static">
-        <video autoplay muted loop class="absolute h-[100vh] md:h-[80vh] w-full object-cover">
+        <video id="background-video" autoplay muted loop class="absolute h-[100vh] md:h-[80vh] w-full object-cover">
             <source :src="video1" />
         </video>
         <div class="relative grid grid-cols-1 md:grid-cols-2 place-content-center max-w-6xl mx-auto px-4 h-[100vh] md:h-[80vh]"
