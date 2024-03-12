@@ -3,23 +3,23 @@ import event1 from '../assets/images/event.png'
 </script>
 
 <template>
-    <div class="bg-main-200">
-        <div class="max-w-6xl mx-auto py-8 ">
+    <div class="bg-ter-950">
+        <div class="max-w-6xl mx-auto py-8 px-4">
             <div class="text-center mb-8">
-                <p class="font-bold text-xl font-main">Siguientes Eventos</p>
+                <p class="font-bold text-3xl font-main text-ter-50">Próximos Eventos</p>
             </div>
-            <div class="flex col-2 w-full gap-2">
-                <div class="w-full">
-                    <div class="bg-main-50 border-l-8 border-main-400 p-2">
-                        <div class="mb-4">
+            <div class="flex flex-col md:flex-row col-1 md:col-2 w-full gap-4">
+                <div class="w-full hidden md:block">
+                    <div class="bg-ter-100 border-l-8 border-ter-800 drop-shadow-md">
+                        <div class="mb-4 p-2">
                             <p class="font-bold text-4xl text-black mb-2">Ghibli Concert</p>
-                            <div class="flex gap-2 mb-1 text-main-950">
+                            <div class="flex gap-2 mb-1 text-ter-950">
                                 <p class="font-bold">Lugar: </p>
                                 <p>Sala Silvestre Revueltas, Ciudad de México.</p>
                                 <p class="font-bold">Fecha: </p>
                                 <p>19/Mayo/2024</p>
                             </div>
-                            <p class="font-lg text-main-900 text-justify">Lorem ipsum dolor sit amet consectetur
+                            <p class="font-lg text-ter-900 text-justify">Lorem ipsum dolor sit amet consectetur
                                 adipisicing elit.
                                 Dignissimos recusandae odio vero, omnis labore, voluptates officia ad provident quam
                                 veniam in cupiditate tempore animi, amet minus odit expedita iure. Excepturi?
@@ -30,13 +30,13 @@ import event1 from '../assets/images/event.png'
                         </div>
                     </div>
                 </div>
-                <div class="w-full flex flex-col gap-2">
-                    <div v-for="element in [1, 2]" class="w-full h-1/2 bg-main-50 flex p-2 border-l-8 border-main-400">
-                        <div class="flex gap-2">
-                            <img :src="event1" alt="" class="h-full w-64 object-cover self-center">
-                            <div class="mb-4">
+                <div class="w-full flex flex-col gap-4">
+                    <div v-for="element in [1, 2]" class="w-full h-1/2 bg-ter-100 flex border-l-8 border-ter-800">
+                        <div class="flex flex-col md:flex-row gap-2 drop-shadow-sm">
+                            <img :src="event1" alt="" class="md:h-full md:w-64 w-full object-cover self-center">
+                            <div class="mb-4 p-2">
                                 <p class="font-bold text-2xl text-black mb-2">Ghibli Concert</p>
-                                <div class="flex flex-col gap-2 mb-2 text-main-950">
+                                <div class="flex flex-col gap-2 mb-2 text-ter-950">
                                     <div class="flex gap-2">
                                         <p class="font-bold">Lugar: </p>
                                         <p>Sala Silvestre Revueltas, Ciudad de México.</p>
@@ -46,7 +46,7 @@ import event1 from '../assets/images/event.png'
                                         <p>19/Mayo/2024</p>
                                     </div>
                                 </div>
-                                <p class="font-lg text-main-900 text-justify">Lorem ipsum dolor sit amet consectetur
+                                <p class="font-lg text-ter-900 text-justify">Lorem ipsum dolor sit amet consectetur
                                     adipisicing elit.
                                     Dignissimos recusandae odio vero, omnis labore, voluptates officia ad provident quam
                                     veniam in cupiditate tempore animi, amet minus odit expedita iure. Excepturi?

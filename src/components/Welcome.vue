@@ -34,7 +34,7 @@ import video1 from '../assets/videos/orchestra-video-1.mp4'
                         últimas noticias
                     </p>
                     <div class="flex flex-col md:flex-row justify-center w-full gap-1">
-                        <input type="text" placeholder="Ingresa tu email"
+                        <input type="text" placeholder="Ingresa tu correo electrónico..."
                             class="text-lg bg-white border-black border-2 rounded-sm px-2 py-1 text-center">
                         <button
                             class="text-lg bg-main-500 hover:bg-main-300 px-2 py-1 border-black border-2">Suscribete</button>
