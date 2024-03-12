@@ -1,5 +1,23 @@
+<script setup>
+import video1 from '../assets/videos/orchestra-video-1.mp4'
+</script>
+
 <template>
+    <!-- Image as Background -->
+    <!-- <div class="back-view">
+        <div class="top-view grid grid-cols-2 place-content-center h-full max-w-6xl mx-auto " :style="{ grayscale: 0 }">
+            <div class="py-6">
+                <p class="font-main text-main-400 text-8xl title-shadow ">Cinema Conert Club</p>
+            </div>
+            <div></div>
+        </div>
+    </div> -->
+
+    <!-- Video as Background -->
     <div class="back-view">
+        <video autoplay muted loop>
+            <source :src="video1" />
+        </video>
         <div class="top-view grid grid-cols-2 place-content-center h-full max-w-6xl mx-auto " :style="{ grayscale: 0 }">
             <div class="py-6">
                 <p class="font-main text-main-400 text-8xl title-shadow ">Cinema Conert Club</p>
