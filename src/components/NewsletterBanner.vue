@@ -6,7 +6,7 @@ import image from '../assets/images/main-3.jpeg'
 
 <template>
     <!-- Image as Background -->
-    <div class="back-view lg:h-[80vh] py-12">
+    <div class="back-view h-[100vh] lg:h-[80vh] py-12">
         <div class="top-view grid place-content-center h-full max-w-6xl mx-auto">
             <div class="bg-main-500 w-[90vw] lg:w-[50vw] self-center rounded-sm py-12 px-4 lg:px-24 text-center">
                 <p class="font-main text-2xl lg:text-4xl text-white mb-2">¡Suscribete!</p>
