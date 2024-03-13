@@ -31,7 +31,7 @@ onMounted(() => {
             </div>
             <div class="grid place-content-center">
                 <div class="px-6 flex flex-col gap-2">
-                    <p class="text-white text-center text-2xl font-bold title-shadow">Disfruta de los clásicos del
+                    <p class="text-white text-center text-3xl font-semibold title-shadow">Disfruta de los clásicos del
                         cine musicalizados en vivo de una manera segura, limitada y exclusiva.
                     </p>
                     <p class="text-center text-xl text-main-50 title-shadow mb-4">Suscribete para recibir nuestras
