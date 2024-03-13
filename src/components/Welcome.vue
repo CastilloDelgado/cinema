@@ -26,7 +26,7 @@ onMounted(() => {
             :style="{ grayscale: 0 }">
             <div class="">
                 <p class="font-main text-main-400 text-6xl text-center md:text-start md:text-8xl title-shadow mb-6">
-                    Cinema Conert Club
+                    Cinema Concert Club
                 </p>
             </div>
             <div class="grid place-content-center">
