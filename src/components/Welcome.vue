@@ -25,7 +25,7 @@ onMounted(() => {
         <div class="relative grid grid-cols-1 md:grid-cols-2 place-content-center max-w-6xl mx-auto px-4 h-[100vh] md:h-[80vh]"
             :style="{ grayscale: 0 }">
             <div class="">
-                <p class="font-main text-main-400 text-6xl text-center md:text-start md:text-8xl title-shadow mb-6">
+                <p class="font-main text-main-400 text-6xl text-center md:text-start md:text-7xl title-shadow mb-6">
                     Cinema Concert Club
                 </p>
             </div>
