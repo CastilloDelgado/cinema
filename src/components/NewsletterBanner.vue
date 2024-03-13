@@ -45,7 +45,7 @@ import image from '../assets/images/main-3.jpeg'
     filter: grayscale(100%);
     background-image: url('../assets/images/main-3.jpeg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
 }
 
